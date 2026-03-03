@@ -24,7 +24,6 @@
     <header>
     <img src="logo KIWIMBI.png" alt="Kiwimbi Logo" class="logo">
     </header>
-    <h2 id="welcome-text"></h2>
 
     <h2>Kiwimbi Analytic Dashboard</h2>
 
@@ -34,21 +33,6 @@
         allowfullscreen>
     </iframe>
 
-<script>
-    const text = "Welcome to Kiwimbi Analytic Dashboard";
-    let index = 0;
-    const speed = 80; // typing speed in milliseconds
-
-    function typeWriter() {
-        if (index < text.length) {
-            document.getElementById("welcome-text").innerHTML += text.charAt(index);
-            index++;
-            setTimeout(typeWriter, speed);
-        }
-    }
-
-    window.onload = typeWriter;
-</script>
 </body>
 
 <footer>
